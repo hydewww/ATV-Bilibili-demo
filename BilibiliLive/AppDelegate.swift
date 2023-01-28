@@ -5,6 +5,7 @@
 //  Created by Etan on 2021/3/27.
 //
 
+import Atlantis
 import AVFoundation
 import CocoaLumberjackSwift
 import UIKit
@@ -35,6 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         WebRequest.requestIndex()
         window?.makeKeyAndVisible()
+        Atlantis.start()
         return true
     }
 

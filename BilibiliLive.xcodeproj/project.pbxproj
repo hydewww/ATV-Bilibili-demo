@@ -15,6 +15,7 @@
 		2806E5202C15A59E00164C10 /* ReplyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806E51F2C15A59E00164C10 /* ReplyDetailViewController.swift */; };
 		2806E5232C16011B00164C10 /* ReplyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806E5212C16011B00164C10 /* ReplyCell.swift */; };
 		2806E5242C16011B00164C10 /* ReplyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2806E5222C16011B00164C10 /* ReplyCell.xib */; };
+		2B8D233829811D7600C4EA63 /* Atlantis in Frameworks */ = {isa = PBXBuildFile; productRef = 2B8D233729811D7600C4EA63 /* Atlantis */; };
 		2DBE4C4D2628818F00D20413 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBE4C4C2628818F00D20413 /* HistoryViewController.swift */; };
 		490425F729AB54B200CDBC60 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490425F629AB54B200CDBC60 /* CategoryViewController.swift */; };
 		49078E47291BEA2400F556BD /* PocketSVG in Frameworks */ = {isa = PBXBuildFile; productRef = 49078E46291BEA2400F556BD /* PocketSVG */; };
@@ -349,6 +350,7 @@
 				499C76162931A7AE003160FB /* SwiftyXMLParser in Frameworks */,
 				49508E112943420100D26812 /* CocoaLumberjackSwift in Frameworks */,
 				F927ED65260F917D00EAB8E3 /* Gzip in Frameworks */,
+				2B8D233829811D7600C4EA63 /* Atlantis in Frameworks */,
 				F9171D5F2900FCFB002868C7 /* SnapKit in Frameworks */,
 				0A41EE192A630FEA0066444C /* SwiftProtobuf in Frameworks */,
 				494741C329016CCE005D6885 /* MarqueeLabel in Frameworks */,
@@ -781,6 +783,7 @@
 				49508E102943420100D26812 /* CocoaLumberjackSwift */,
 				0A41EE182A630FEA0066444C /* SwiftProtobuf */,
 				2806E51D2C1593A000164C10 /* LookinServer */,
+				2B8D233729811D7600C4EA63 /* Atlantis */,
 			);
 			productName = BilibiliLive;
 			productReference = F9B57350260F5F7400771ED5 /* BilibiliLive.app */;
@@ -825,6 +828,7 @@
 				49508E0D2943420100D26812 /* XCRemoteSwiftPackageReference "CocoaLumberjack" */,
 				0A41EE172A630FEA0066444C /* XCRemoteSwiftPackageReference "swift-protobuf" */,
 				2806E51C2C1593A000164C10 /* XCRemoteSwiftPackageReference "LookinServer" */,
+				2B8D233629811D7600C4EA63 /* XCRemoteSwiftPackageReference "atlantis" */,
 			);
 			productRefGroup = F9B57351260F5F7400771ED5 /* Products */;
 			projectDirPath = "";
@@ -1238,6 +1242,14 @@
 				minimumVersion = 1.2.8;
 			};
 		};
+		2B8D233629811D7600C4EA63 /* XCRemoteSwiftPackageReference "atlantis" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ProxymanApp/atlantis";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		49078E45291BEA2400F556BD /* XCRemoteSwiftPackageReference "PocketSVG" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pocketsvg/PocketSVG.git";
@@ -1338,6 +1350,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2806E51C2C1593A000164C10 /* XCRemoteSwiftPackageReference "LookinServer" */;
 			productName = LookinServer;
+		};
+		2B8D233729811D7600C4EA63 /* Atlantis */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B8D233629811D7600C4EA63 /* XCRemoteSwiftPackageReference "atlantis" */;
+			productName = Atlantis;
 		};
 		49078E46291BEA2400F556BD /* PocketSVG */ = {
 			isa = XCSwiftPackageProductDependency;
