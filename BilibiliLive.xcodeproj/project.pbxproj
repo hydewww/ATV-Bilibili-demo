@@ -16,6 +16,7 @@
 		2806E5232C16011B00164C10 /* ReplyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806E5212C16011B00164C10 /* ReplyCell.swift */; };
 		2806E5242C16011B00164C10 /* ReplyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2806E5222C16011B00164C10 /* ReplyCell.xib */; };
 		2B8D233829811D7600C4EA63 /* Atlantis in Frameworks */ = {isa = PBXBuildFile; productRef = 2B8D233729811D7600C4EA63 /* Atlantis */; };
+		2B8D233C2981606400C4EA63 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D233B2981606400C4EA63 /* CustomViewController.swift */; };
 		2DBE4C4D2628818F00D20413 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBE4C4C2628818F00D20413 /* HistoryViewController.swift */; };
 		490425F729AB54B200CDBC60 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490425F629AB54B200CDBC60 /* CategoryViewController.swift */; };
 		49078E47291BEA2400F556BD /* PocketSVG in Frameworks */ = {isa = PBXBuildFile; productRef = 49078E46291BEA2400F556BD /* PocketSVG */; };
@@ -162,6 +163,7 @@
 		2806E51F2C15A59E00164C10 /* ReplyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyDetailViewController.swift; sourceTree = "<group>"; };
 		2806E5212C16011B00164C10 /* ReplyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReplyCell.swift; path = BilibiliLive/Component/View/ReplyCell.swift; sourceTree = SOURCE_ROOT; };
 		2806E5222C16011B00164C10 /* ReplyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ReplyCell.xib; path = BilibiliLive/Component/View/ReplyCell.xib; sourceTree = SOURCE_ROOT; };
+		2B8D233B2981606400C4EA63 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 		2DBE4C4C2628818F00D20413 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		490425F629AB54B200CDBC60 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		490EC3E6290CC8F8001E00B6 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
@@ -664,6 +666,7 @@
 				2DBE4C4C2628818F00D20413 /* HistoryViewController.swift */,
 				4973502A29161B770045C26B /* WeeklyWatchViewController.swift */,
 				49A441CC293F6DFD0007606C /* FollowUpsViewController.swift */,
+				2B8D233B2981606400C4EA63 /* CustomViewController.swift */,
 			);
 			path = Personal;
 			sourceTree = "<group>";
@@ -932,6 +935,7 @@
 				498CF2A82B63AABE0009793E /* huffman.c in Sources */,
 				49389D6228AFEA2900B9DAFD /* VideoDanmuProvider.swift in Sources */,
 				498CF2902B63AABE0009793E /* dictionary_hash.c in Sources */,
+				2B8D233C2981606400C4EA63 /* CustomViewController.swift in Sources */,
 				AEA5FDE2290F6E2600E7C0B2 /* String.swift in Sources */,
 				F927ED682610113A00EAB8E3 /* LiveDanMuProvider.swift in Sources */,
 				498CF2922B63AABE0009793E /* histogram.c in Sources */,

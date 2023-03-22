@@ -101,6 +101,9 @@ enum Settings {
 
     @UserDefault("Settings.ui.sideMenuAutoSelectChange", defaultValue: false)
     static var sideMenuAutoSelectChange: Bool
+
+    @UserDefault("Settings.customLink", defaultValue: "http://")
+    static var customLink: String
 }
 
 struct MediaQuality {

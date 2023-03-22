@@ -201,6 +201,11 @@ class SettingsViewController: UIViewController {
         }
         cellModels.append(areaLimitCustomServer)
 
+        let customLink = cellModelWithTextField(title: "自定义地址", message: "", current: Settings.customLink, placeholder: "api.example.com") {
+            Settings.customLink = $0 ?? ""
+        }
+        cellModels.append(customLink)
+
         collectionView.reloadData()
     }
 

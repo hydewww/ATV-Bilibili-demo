@@ -52,6 +52,7 @@ class PersonalViewController: UIViewController, BLTabBarContentVCProtocol {
     func setupData() {
         let setting = CellModel(title: "设置", contentVC: SettingsViewController.create())
         cellModels.append(setting)
+        cellModels.append(CellModel(title: "自定义", contentVC: CustomViewController()))
         cellModels.append(CellModel(title: "搜索", autoSelect: false, action: {
             [weak self] in
             let resultVC = SearchResultViewController()
